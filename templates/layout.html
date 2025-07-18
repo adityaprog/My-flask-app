@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="10">
+    <link rel="stylesheet" href="../static/layoutStyle.css">
+    <title>{{ flask_title }}</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            {{ flask_title }}
+
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Social links</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>This is in main tag.</h1>
+        <p>Everything inside the box below is rendered from python flask.</p>
+        <div class="render-content">
+            {% block content %}
+            {% endblock content %}
+        </div>
+    </main>
+    <footer>
+        <p>This is footer.</p>
+    </footer>
+</body>
+</html>
