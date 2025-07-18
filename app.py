@@ -1,12 +1,15 @@
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
+# Variables
+
+home_title ="Flask App"
+
+
 @app.route('/')
 def hello():
-    return '''<h1>Hello!</h1>
-            <p>From Aditya to Siddharth and all my dear users.</p>
-            <p>Welcome to my Flask app.</p>'''
+    return render_template("index.html", flask_title= home_title)
 
 
 if __name__ == '__main__':
