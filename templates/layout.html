@@ -14,7 +14,8 @@
   <meta property="og:description" content="Welcome to Aditya's flask app.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ request.url }}">
-
+  {% block googlemeta %}
+  {% endblock googlemeta %}
     <title>{{ flask_title }}</title>
   </head>
   <body>
