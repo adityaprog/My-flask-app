@@ -8,7 +8,7 @@ home_title ="Flask App"
 
 
 @app.route('/')
-def hello():
+def home_page():
     return render_template("index.html", flask_title= home_title)
 
 
