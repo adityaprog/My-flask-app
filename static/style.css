@@ -39,7 +39,7 @@ header {
   list-style: none;
 }
 
-.nav-bar > ul > li > a {
+a {
   text-decoration: none;
   color: #ffffff;
 }
