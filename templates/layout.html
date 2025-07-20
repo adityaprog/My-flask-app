@@ -17,9 +17,6 @@
   {% block googlemeta %}
   {% endblock googlemeta %}
     <title>{{ flask_title }}</title>
-    <!-- this line is to be deleted -->
-     <meta http-equiv="refresh" content="10">
-     <!-- before deploying the app  -->
 
   </head>
   <body>
@@ -27,9 +24,9 @@
       <div class="logo">Flask App</div>
       <nav class="nav-bar">
         <ul>
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Social links</a></li>
+          <li><a href="/about">About us</a></li>
+          <li><a href="/projects">Projects</a></li>
+          <li><a href="/social">Social links</a></li>
         </ul>
       </nav>
     </header>

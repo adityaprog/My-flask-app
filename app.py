@@ -13,7 +13,7 @@ def home_page():
 
 @app.route('/<page>')
 def render_page(page):
-    return render_template(f"{page}.html", flask_title=f"{home_title} - {page.capitalize()}")
+    return render_template(f"{page}.html", flask_title=f"{home_title} - {page.capitalize()}", heading = page)
 
 
 if __name__ == '__main__':
