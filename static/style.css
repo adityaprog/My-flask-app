@@ -53,9 +53,18 @@ main {
     flex-flow: column wrap;
 }
 
+p{
+  text-align: center;
+}
+
 .render-content{
     width: 95%;
+    min-height:50%;
     border: 2px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
 }
 
 footer{
