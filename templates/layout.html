@@ -17,13 +17,13 @@
   {% block googlemeta %}{% endblock googlemeta %}
   {% block head %}{% endblock head %}
   <title>{{ flask_title }}</title>
-  <!-- this line is to be deleted -->
-  <meta http-equiv="refresh" content="10">
-   <!-- before uploading to github -->
   </head>
   <body>
     <header>
       <div class="logo"><a href="/">Flask App</a></div>
+      <div class="side-menu">
+        <button>&#9776;</button>
+      </div>
       <nav class="nav-bar">
         <ul>
           <li><a href="/about">About us</a></li>
