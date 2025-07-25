@@ -28,6 +28,10 @@ header {
   font-size: 1.6rem;
 }
 
+.menu {
+  display: none;
+}
+
 .nav-bar {
   text-transform: uppercase;
   font-size: 1.2rem;
