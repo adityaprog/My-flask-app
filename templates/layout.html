@@ -41,7 +41,7 @@
       <div class="logo"><a href="/">Flask App</a></div>
       <div class="side-menu">
         <button onclick="toggleMenu()" id="menu-button">&#9776;</button>
-        <div class="menu">
+        <div class="menu" id="menu-list">
           <nav class="nav-bar">
             <ul>
               <li><a href="/about">About us</a></li>
@@ -64,6 +64,6 @@
       <p>This is footer.</p>
     </footer>
 
-    <script src="menuScript.js"></script>
+    <script src="{{ url_for('static', filename='menuScript.js') }}?ver=1.0"></script>
   </body>
 </html>
