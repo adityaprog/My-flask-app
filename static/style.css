@@ -28,6 +28,20 @@ header {
   font-size: 1.6rem;
 }
 
+.button{
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #00000000;
+  color:#000000;
+  border: none;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: #f0f0f0;
+}
+
 .menu {
   display: none;
 }
