@@ -33,13 +33,14 @@ header {
   font-size: 1rem;
   font-weight: 600;
   background-color: #00000000;
-  color:#000000;
+  color:#f0f0f0;
   border: none;
 }
 
 .button:hover {
   cursor: pointer;
-  color: #f0f0f0;
+  color: #000000;
+  text-shadow: 0px 0px 10px #f0f0f0;
 }
 
 .menu {
