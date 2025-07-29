@@ -12,22 +12,19 @@
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
-
       gtag("config", "G-SLGGT90ZGY");
     </script>
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="{{ url_for('static', filename='style.css') }}?ver=1.0"
-    />
-    <link rel="canonical" href="{{ request.base_url }}" />
     <meta name="description" content="Welcome to Aditya's flask app." />
     <meta property="og:title" content="Aditya's Flask App" />
     <meta property="og:description" content="Welcome to Aditya's flask app." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ request.url }}" />
+    <link rel="canonical" href="{{ request.base_url }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?ver=1.0" />
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
     <title>{{ flask_title }}</title>
   </head>
   <body>
