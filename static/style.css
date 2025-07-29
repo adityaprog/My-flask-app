@@ -40,7 +40,7 @@ header {
 .button:hover {
   cursor: pointer;
   color: #000000;
-  text-shadow: 0px 0px 10px #f0f0f0;
+  text-shadow: 0px 0px 25px #f0f0f0;
 }
 
 .button:active {
