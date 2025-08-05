@@ -25,7 +25,7 @@ header {
 }
 
 .logo {
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 
 .button{
@@ -48,24 +48,27 @@ header {
 
 }
 
-.menu {
+/* .menu {
   display: none;
-}
+} */
 
 .nav-bar {
   text-transform: uppercase;
   font-size: 1.2rem;
-}
-.nav-bar > ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-flow: row nowrap;
+  position: absolute;
+  top: 8%; 
+  right: 0;
+  width: 25%;
+  height: 50%;
+  background-color: #334455;
 }
 
 .nav-bar > ul > li {
-  padding: 0 0.4rem;
+  font-size: 1.6rem;
+  text-align: center;
   list-style: none;
+
+  padding: 1.6rem;
 }
 
 a {
