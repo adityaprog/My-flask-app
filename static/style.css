@@ -32,7 +32,7 @@ header {
   padding: 0.5rem;
   font-size: 1rem;
   font-weight: 600;
-  background-color: #00000000;
+  background-color: rgba(0, 0, 0, 0);
   color:#f0f0f0;
   border: none;
 }
@@ -48,9 +48,9 @@ header {
 
 }
 
-/* .menu {
+.menu {
   display: none;
-} */
+}
 
 .nav-bar {
   text-transform: uppercase;
